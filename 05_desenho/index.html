@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Desenho: conceito, volumetria e representação gráfica (manual e digital)</title>
+
+  <!-- Bootstrap -->
+  <link href="../template/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../template/css/tecnicos_senac.css" rel="stylesheet" />
+  <link href="../template/css/cores.css" rel="stylesheet" />
+  <link href="../template/css/modal-100.css" rel="stylesheet" />
+  <link href="../template/css/devibeans.min.css" rel="stylesheet" />
+  <!--Extras - novas classes para facilitar-->
+  <link rel="stylesheet" href="../template/css/extras.css" />
+  <link href="../template/css/sncload.css" rel="stylesheet" />
+  <link href="../template/css/magnific-popup.css" rel="stylesheet" />
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <link href="css/custom.css" type="text/css" rel="stylesheet" />
+  <!-- css necessario para o print -->
+  <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+  <link href="../template/css/print.css" type="text/css" rel="stylesheet" />
+  <link href="../template/fonts/roboto.css" type="text/css" rel="stylesheet" />
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+  <!--[if gte mso 9
+      ]><xml>
+        <mso:CustomDocumentProperties>
+          <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor
+            msdt:dt="string"
+            >Paulo Ricardo Soveral
+            Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor
+          >
+          <mso:Order msdt:dt="string">46914400.0000000</mso:Order>
+          <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author
+            msdt:dt="string"
+            >Paulo Ricardo Soveral
+            Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author
+          >
+          <mso:ContentTypeId msdt:dt="string"
+            >0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId
+          >
+        </mso:CustomDocumentProperties>
+      </xml><!
+    [endif]-->
+</head>
+
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+  <!-- MARCA D´ÁGUA -->
+  <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo" />
+  <!-- /MARCA D´ÁGUA -->
+
+  <div id="sncloader" class="over-loader">
+    <div class="over-cell">
+      <div id="sncload"></div>
+    </div>
+  </div>
+  <header id="topo" class="senac no-print ">
+    <div class="header-tecnicos container">
+      <h1 id="nome-curso">Design de Interiores</h1>
+      <div id="logo-senac">
+        <img src="../template/images/logo-senac.png" alt="logo do senac" />
+      </div>
+    </div>
+    <div id="sombra"></div>
+  </header>
+  <div id="booklet" class="">
+    <header class="no-print container margem-botao">
+      <!-- BTO IMPRIMIR -->
+      <div class="grupo-imprimir no-print">
+        <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+          <span class="fa fa-print"></span> <span>Imprimir</span>
+        </button>
+      </div>
+      <!-- /BTO IMPRIMIR -->
+    </header>
+    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+
+    <section class="paginas">
+
+      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+
+      <div class="pagina">
+        <div class="bloco bloco1 bloco-branco">
+          <div class="container">
+            <img src="imgs/adesivo.png" class="img-adesivo">
+
+            <img src="imgs/titulo.png" class="img-responsive center-block img-titulo_h2" alt="Desenho: conceito, volumetria e representação gráfica (manual e digital)">
+            <p>No curso Técnico em <i>Design</i> de Interiores, chama-se a atenção para o desenho como uma ferramenta importantíssima no processo de projeto. Nas unidades curriculares (UCs) com os conhecimentos de desenho à mão livre e desenho computacional e, posteriores, nas UCs de projeto, você pôde colocar em prática as diversas técnicas de expressão gráfica. Como já abordado algumas vezes, o desenho será uma ferramenta que acompanha o processo desde o início, com croquis e desenhos à mão livre, passando por anteprojetos e chegando aos desenhos técnicos executivos.</p>
+            <img src="imgs/fig1.png" class="img-responsive center-block">
+            <p class="legenda-imagem">
+              Desenhos técnicos e projeto de pequeno espaço efêmero executado <br>
+              Fonte: Adaptado de ArchDaily (2013) 
+            </p>
+            <p class="acessivel no-print">Desenhos técnicos e fotografia de um pequeno ambiente efêmero. Na imagem da esquerda, uma vista superior mostrando a localização do ambiente em uma floresta. Junto, uma vista lateral e um corte, ambos com uma pessoa para entendimento de escala. Na imagem da direita, uma foto do local, com o projeto inserido em um espaço que lembra uma floresta. O espaço é branco, em formato orgânico, misturado com um tronco de cone. A fachada é esburacada, lembrando uma colmeia parametrizada. No ambiente, cabem aproximadamente quatro pessoas, e não tem mais de 2,5 metros de altura.</p>
+            <p>Nesta UC, será abordado como esses conceitos de desenho se aplicam em um tipo de projeto muito especial, que é o <i>design</i> efêmero. Mesmo tendo uma base muito similar ao que já foi visto até o momento, algumas particularidades serão importantes de serem explicadas neste contexto. Aqui, caberá ao <i>designer</i> não só se expressar com o desenho, mas também ter uma leitura clara do ambiente onde ele está instalando seu espaço, pois deverá compreender os projetos originais do local preexistente, como <i>shoppings centers</i>, galpões, centros de eventos e até mesmo espaços ao ar livre.</p>
+            
+            <img src="imgs/titulo_conceito.png" class="img-responsive img-titulo" alt="Conceito">
+            <p>Como você deve ter visto nos outros conteúdos, a principal característica dos interiores efêmeros é o fato de ser um projeto com tempo determinado. Aqui, entram projetos de estandes, exposições, eventos, instalações etc. Nesse contexto, o desenho fundamenta o projeto, trazendo plantas baixas, cortes, perspectivas e detalhes que facilitam na flexibilização, o reaproveitamento e a praticidade de montagem dessas estruturas temporárias.</p>
+            <p>A partir do momento que se sabe que o projeto terá um tempo determinado, caberá ao <i>designer</i> entender os materiais e as técnicas construtivas que poderão ser aplicadas nesse ambiente. Por exemplo, dificilmente um <i>designer</i> fará um projeto de estande de vendas totalmente em concreto armado, certo? Cada tipo de ambiente efêmero terá características e materiais mais apropriados para utilizar, porém “temporalidade” e “flexibilidade” são as palavras-chave nesse contexto.</p>
+            <img src="imgs/fig2.png" class="img-responsive center-block">
+            <p class="legenda-imagem">
+              Horta efêmera projetada com estrutura metálica e madeira e sua representação axonométrica <br>
+              Fontes: a) Markkanen <i>apud</i> Pintos (2020); b) Pintos (2020)
+            </p>
+            <p class="acessivel no-print">Foto e vista isométrica de uma horta efêmera instalada em uma calçada. Na imagem da esquerda, a foto demonstra o projeto, com bancos de madeira à esquerda, estrutura vertical e horizontal marcada com peças cilíndricas metálicas encaixadas à direita. Sobre essa estrutura, algumas caixas de madeira com vegetação plantada. Há uma pequena cobertura em formato de aba sobre os bancos em madeira e material translúcido. Na imagem da direita, a representação gráfica, que é uma vista isométrica feita com linhas azuis.</p>
+            <p>Quando se fala de desenho, deve-se lembrar que os projetos efêmeros normalmente incorporam elementos como sistemas modulares para montagem e desmontagem, mobiliário solto, chapas diversas de rápida fixação, estruturas metálicas, e assim por diante. Os desenhos deverão estar atentos a essas tipologias construtivas diferentes, cabendo ao <i>designer</i> ficar atento para formas de montagem e construção. Além disso, existe a necessidade de se ter uma compreensão clara dos requisitos do cliente, do público-alvo e do contexto em que o ambiente-espaço será utilizado.</p>
+            <p>Vale relembrar que os desenhos são a expressão visual do conceito do projeto. Dessa maneira, croquis, plantas baixas, cortes, vistas, perspectivas e detalhes devem comunicar claramente a seleção de materiais, formas, cores e detalhes do ambiente. Com isso, há garantia de que o projetista, o cliente e a equipe de execução estejam com uma compreensão compartilhada do projeto.</p>
+
+            <img src="imgs/titulo_volumetria.png" class="img-responsive img-titulo" alt="Volumetria">
+            <p>Segundo Ching (1998), as formas construídas que se situam como objetos na paisagem são identificados como ocupando volumes nesse espaço. A volumetria como conceito dentro dos ambientes efêmeros vai pelo mesmo caminho. Aqui, ela desempenha um papel muito importante, pois define a forma e a presença física do ambiente. A partir do momento que há escolhas de tamanhos e medidas do volume, afeta-se a percepção do espaço, alterando seu impacto visual. </p>
+            <p>Pense que você foi contratado para fazer o projeto de um estande de uma feira, por exemplo. O local que você fará seu ambiente é um espaço para eventos. Porém, você terá uma série de estandes, um ao lado do outro, competindo com o seu projeto. Aqui, o entendimento de diferentes formas e volumes do espaço garantirá que seu projeto seja atraente para os visitantes. Como você encarará as formas e proporções dentro desse espaço restrito, sem fachada, para atrair pessoas? Como trabalhar com as formas de maneira interessante dentro do estande? Que estratégias podem ser buscadas?</p>
+            <p>É importante lembrar-se dos conceitos já vistos desde o início do curso, como elementos e princípios de <i>design</i>, que permitirão que você trabalhe com o espaço de maneira adequada. Ao mesmo tempo, lembre-se de que a escolha das formas e proporções pode trazer diferentes emoções e sensações, influenciando a experiência dos usuários. Se você quer trabalhar com um espaço contemporâneo e jovem, será que trabalhará com as mesmas formas e os mesmo volumes que se fosse fazer um estande para um público mais velho e clássico? </p>
+            <p>Veja alguns exemplos práticos de como os projetistas trabalharam os volumes e as formas dos seus espaços efêmeros.</p>
+
+            <div class="no-print" aria-hidden="true">
+              <p>Passe o <i>mouse</i> ou toque para visualizar o conteúdo.</p>
+              <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="flip-card mx-auto my-5" aria-hidden="true">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="imgs/card1_1.png" class="img-responsive">
+                      </div>
+                      <div class="flip-card-back">
+                        <img src="imgs/card1_2.png" class="img-responsive">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="flip-card mx-auto my-5" aria-hidden="true">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="imgs/card2_1.png" class="img-responsive">
+                      </div>
+                      <div class="flip-card-back">
+                        <img src="imgs/card2_2.png" class="img-responsive">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <div class="flip-card mx-auto my-5" aria-hidden="true">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="imgs/card3_1.png" class="img-responsive">
+                      </div>
+                      <div class="flip-card-back">
+                        <img src="imgs/card3_2.png" class="img-responsive">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h4>Estande da Euroshop 2014</h4>
+              <p>Nesse projeto, há uma inserção de espaços rígidos retangulares sob um grande quadrado. Note as formas retas do espaço e do destaque dos volumes brancos em relação ao grande quadrado preto.</p>
+              <div class="row center-block">
+                <div class="col-sm-6">
+                  <img src="imgs/fig03a.jpg" class="img-responsive">
+                </div>
+                <div class="col-sm-6">
+                  <img src="imgs/fig03b.jpg" class="img-responsive">
+                </div>
+              </div>
+              <p class="legenda-imagem">
+                Estande da Euroshop 2014 <br>
+                Fontes: a) Braun <i>apud</i> ArchDaily (2014); b) ArchDaily (2014)
+              </p>
+              <p class="acessivel no-print">Foto e planta baixa de estande de exibição. Na imagem da esquerda, a foto mostra um grande volume preto vazado, com um volume branco encaixado à esquerda, e espécimes vegetais dentro deste. O espaço externo ao estande é similar a um centro de eventos, também todo preto. Na planta da direita, linhas em preto e vegetação em verde. O volume preto é um quadrado e existem dois volumes encaixados no grande volume quadrado: um com as vegetações e outro com uma mesa de reuniões.</p>
+              <h4>Museu temporário Nadir Afonso</h4>
+              <p>Nesse projeto, há uma conversa contrastante dos volumes de medidas variadas com o grande átrio envidraçado e arredondado do <i>shopping center</i>. Esse contraste é ainda mais marcante pelo uso da cor amarela.</p>
+              <div class="row center-block">
+                <div class="col-sm-6">
+                  <img src="imgs/fig04a.jpg" class="img-responsive">
+                </div>
+                <div class="col-sm-6">
+                  <img src="imgs/fig04b.jpg" class="img-responsive">
+                </div>
+              </div>
+              <p class="legenda-imagem">
+                Museu temporário Nadir Afonso <br>
+                Fonte: Moreira (2021a)
+              </p>
+              <p class="acessivel no-print">Foto e corte do museu temporário. Na foto da esquerda, um grande ambiente de shopping center, com uma série de volumes amarelos contendo a exibição. No corte da direita, o shopping tem um pé direito triplo e mais uma cúpula redonda de vidro dobrando essa altura. Com isso, a proporção do museu dentro do shopping é de aproximadamente 1:6, demonstrando o contraste entre os projetos.</p>
+              <h4>Exposição Iconic Bowie</h4>
+              <p>Nesse projeto, as formas marcantes marcam um caminho, uma passagem. Além dessa passagem de formas, há um uso de metal escovado como referência a um material “futurista”, que se conecta com o artista da exposição.</p>
+              <div class="row center-block">
+                <div class="col-sm-6">
+                  <img src="imgs/fig05a.jpg" class="img-responsive">
+                </div>
+                <div class="col-sm-6">
+                  <img src="imgs/fig05b.jpg" class="img-responsive">
+                </div>
+              </div>
+              <p class="legenda-imagem">
+                Exposição Iconic Bowie <br>
+                Fontes: a) Morgado <i>apud</i> Pereira (2018); b) Pereira (2018)
+              </p>
+              <p class="acessivel no-print">Foto e vistas/cortes de pequena exposição. Na foto da esquerda, quatro volumes metálicos em série, em formato retangular com uma espécie de “linha” sendo puxada pela lateral do volume. Os volumes são vazados e internamente ocorre a exposição, com uma passarela reta de circulação. Nos desenhos da direita, linhas em preto e branco do corte e vistas evidenciam a linearidade do projeto.</p>
+            </div>
+
+            <img src="imgs/titulo_representacao.png" class="img-responsive img-titulo" alt="Representação gráfica (manual e digital)">
+            <p>Conforme comentado em UCs anteriores do curso, a representação gráfica é ponto fundamental na expressão e no entendimento de um projeto de interiores. Ching (2011) fala que desenhar à mão livre, dentro de um contexto que cada vez mais usa computadores, é um meio mais intuitivo, que dá o poder de iniciar um trabalho de maneira mais aberta e sem os “freios” da computação gráfica.</p>
+            <p>Por outro lado, a representação digital permite uma produção de desenhos técnicos muito mais rápida e eficaz, além da facilidade em renderizar imagens de maneira realista, trazendo comunicação mais clara entre projetista, cliente e executores do projeto.</p>
+            <div class='table-responsive'>
+              <table class='senac'>
+                <tbody>
+                  <tr>
+                    <th>Representação manual</th>
+                    <th>Representação digital</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="text-center">
+                        Velocidade <br>
+                        Flexibilidade de exploração <br>
+                        Representação rápida da ideia
+                      </div>
+                    </td>
+                    <td>
+                      <div class="text-center">
+                        Precisão técnica <br>
+                        Visualização realista <br>
+                        Colaboração entre as partes
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="legenda-imagem">
+              Potências das representações manual e digital <br>
+              Fonte: Senac EAD (2024)
+            </p>
+            <p>Dentro dos espaços efêmeros, essas características se mantêm. Pense no exemplo de um pequeno estande: o desenho à mão livre potencializa um lançamento de projeto rápido, enquanto a renderização permite visualizar o projeto de maneira quase realista.</p>
+            <img src="imgs/fig6.png" class="img-responsive center-block">
+            <p class="legenda-imagem">
+              Esboço inicial e projeto renderizado de estande: primeira e última etapa da representação gráfica <br>
+              Fonte: Senac EAD (2024)
+            </p>
+            <p class="acessivel no-print">Esboço inicial e projeto renderizado de estande. Na imagem da esquerda, desenho feito à mão demonstrando as primeiras ideias de projeto, com posicionamento de totens de fotografia, pilares, paredes e objetos gerais. Na imagem de direita, o espaço renderizado com medidas reais, texturas, materiais e iluminação proveniente do software de modelagem e renderização.</p>
+            <p>Note como a representação mudou: no croqui inicial, há dimensões diferentes e móveis simplificados, mas é um desenho extremamente rápido de fazer, que já permite estudar a volumetria do ambiente e da sua inserção em um espaço que já tinha um pilar e uma parede. Na renderização, há medidas exatas e uma busca pelo fotorrealismo, que permite ver bem o projeto e sua inserção correta no espaço.</p>
+            <p>Porém, nem só de croqui e renderização se baseia um projeto. Nesse sentido, é preciso retomar o que você já viu algumas vezes. Que tal relembrar onde encontrar os conteúdos sobre as diferentes técnicas de representação gráfica manual e digital aqui no curso? </p>
+            <ul class="marcador-asterisco">
+              <li>Veja, na UC <b>Elaborar estudo preliminar de design de interiores</b>, técnicas de desenho à mão livre em perspectiva e planta baixa.</li>
+              <ul>
+                <li>Dica de conteúdos: <b>Desenho de observação, expressão e croqui</b></li>
+              </ul>
+              <li>Veja, na UC <b>Representar graficamente o ambiente de forma bidimensional</b>, videoaulas de AutoCAD.</li>
+              <ul>
+                <li>Dica de conteúdos: <b>Conhecimento extra: planta baixa</b> e <b>Conhecimento extra: vistas de projeto</b></li>
+              </ul>
+              <li>Veja, na UC <b>Representar graficamente o ambiente de forma tridimensional</b>, videoaulas de Promob e SketchUp.</li>
+              <ul>
+                <li>Dica de conteúdo: <b><i>Software</i> de modelagem 3D: técnicas de modelagem e componentes</b></li>
+              </ul>
+              <li>Veja, na UC <b>Criar representação visual do projeto</b>, técnicas de renderização e de pós-produção com GIMP.</li>
+              <ul>
+                <li>o	Dica de conteúdos: <b>Tratamento gráfico e planta humanizada</b> e <b>Imagens fotorrealistas: conceitos e processo de produção</b></li>
+              </ul>
+            </ul>
+            <p>Sabendo que um projeto de <i>design</i> de um ambiente efêmero passa por desenhos similares a outros projetos de interiores, veja o quadro com as indicações de representação gráfica.</p>
+            <div class='table-responsive'>
+              <table class='senac'>
+                <tbody>
+                  <tr>
+                    <th>Etapa</th>
+                    <th>Tipos de desenho</th>
+                  </tr>
+                  <tr>
+                    <td>Lançamento de projeto</td>
+                    <td>Esboços à mão livre, croquis e desenhos esquemáticos de planta baixa e circulação. Sem escala indicada.</td>
+                  </tr>
+                  <tr>
+                    <td>Anteprojeto</td>
+                    <td>Plantas baixas, cortes e vistas manuais ou digitais. Aqui, pensar em escalas entre 1:25 e 1:50.</td>
+                  </tr>
+                  <tr>
+                    <td>Projeto</td>
+                    <td>Plantas baixas, cortes, vistas digitais, perspectivas com ou sem renderização. Aqui, pensar em escalas entre 1:25 e 1:50. </td>
+                  </tr>
+                  <tr>
+                    <td>Projeto executivo</td>
+                    <td>Plantas baixas, cortes, vistas digitais, perspectivas renderizadas e detalhamento. Aqui, pensar em escalas entre 1:25 e 1:50. Para detalhes, pensar em escalas como 1:2, 1:5 e 1:10.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="legenda-imagem">
+              Etapa e tipo de representação gráfica <br>
+              Fonte: Senac EAD (2024)
+            </p>
+            <p>A seguir, ao clicar nas imagens de cada projeto, você verá os desenhos técnicos produzidos pelos <i>designers</i> dos espaços efêmeros.</p>
+            
+            <!--SLIDE 1-->
+            <div class="no-print hidden-xs" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div id="carousel1" class="carousel slide no-print" data-ride="carousel" data-interval="false" aria-hidden="true">
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="imgs/slide1_1.png" class="img-responsive center-block">
+                  </div>
+                  <div class="item">
+                    <img src="imgs/slide1_2.png" class="img-responsive center-block">
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"></a>
+                <a class="right carousel-control" href="#carousel1" role="button" data-slide="next"></a>
+              </div>
+            </div>
+            <div class="visible-xs print">
+              <img src="imgs/slide1_1.png" class="img-responsive center-block">
+              <img src="imgs/slide1_2.png" class="img-responsive center-block">
+            </div>
+            <p class="legenda-imagem">
+              MPavilion 2022 <br>
+              Fonte: Abdel (2022)
+            </p>
+            <p class="acessivel no-print">Foto de pavilhão externo em um parque. A estrutura é feita de pilares cilíndricos em posições aleatórias. A cobertura é um tecido laranja, lembrando um guarda-chuva semiaberto. Há um volume cilíndrico cinza na lateral esquerda e não há outros fechamentos laterais, mantendo a permeabilidade do parque com o resto do espaço. (a) Vista isométrica com cobertura “invisível”. No desenho aparece a estrutura metálica, o volume cilíndrico e duas plataformas ovais para sentar, que seguem um nivelamento da grama do parque. Além disso, existem cotas e indicações textuais. (b) Vista isométrica explodida colorida, demonstrando três desenhos de baixo para cima: a estrutura metálica e forro em tecido laranja; a estrutura metálica da cobertura; a cobertura em tecido translúcido na cor vermelha. (c) Corte do pavilhão, demonstrando piso, plataformas para sentar, estruturas, forro e cobertura. Cotas e indicações textuais completam o desenho.</p>
+
+            <!--SLIDE 2-->
+            <div class="no-print hidden-xs" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div id="carousel2" class="carousel slide no-print" data-ride="carousel" data-interval="false" aria-hidden="true">
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="imgs/slide2_1.png" class="img-responsive center-block">
+                    <p class="legenda-imagem">
+                      Intervenção efêmera La Valentina <br>
+                      Fonte: Villalba <i>apud</i> Coulleri (2021)
+                    </p>
+                  </div>
+                  <div class="item">
+                    <img src="imgs/slide2_2.png" class="img-responsive center-block">
+                    <p class="legenda-imagem">
+                      Intervenção efêmera La Valentina <br>
+                      Fonte: Coulleri (2021)
+                    </p>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#carousel2" role="button" data-slide="prev"></a>
+                <a class="right carousel-control" href="#carousel2" role="button" data-slide="next"></a>
+              </div>
+            </div>
+            <div class="visible-xs print">
+              <div class="">
+                <img src="imgs/slide2_1.png" class="img-responsive center-block">
+                <p class="legenda-imagem">
+                  Intervenção efêmera La Valentina <br>
+                  Fonte: Villalba <i>apud</i> Coulleri (2021)
+                </p>
+              </div>
+              <div class="">
+                <img src="imgs/slide2_2.png" class="img-responsive center-block">
+                <p class="legenda-imagem">
+                  Intervenção efêmera La Valentina <br>
+                  Fonte: Coulleri (2021)
+                </p>
+              </div>
+            </div>
+            <p class="acessivel no-print">Foto de uma intervenção efêmera. O local é uma rua asfaltada fechada para pedestres em meio a uma cidade com construções clássicas. A estrutura do espaço é formada por pilares metálicos cilíndricos brancos. No alto, um aro redondo conecta os pilares. Abaixo do aro, sacos de tecido circundam toda a volta da estrutura, com a parte inferior permeável para pedestres. No chão, caixas de madeira servem para sentar e expor vasos e vegetações. (a) Croquis esquemáticos do ambiente desenhados à mão. Na parte superior, um desenho estilo corte; na parte inferior, um desenho estilo planta. (b) Croqui esquemático do ambiente desenhado à mão. É uma vista estilo isométrica, demonstrando o espaço e pessoas. (c) Desenhos técnicos da intervenção. No alto à esquerda, corte demonstrando estrutura. No alto à direita, detalhes “puxados” do corte, demonstrando fixação superior e fixação no piso. Abaixo à esquerda, vista superior demonstrando o aro circunferente. Abaixo à direita, vista lateral e tabela estilo legenda, demonstrando medidas e quantitativo de peças para estrutura.</p>
+
+            <!--SLIDE 3-->
+            <div class="no-print hidden-xs" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div id="carousel3" class="carousel slide no-print" data-ride="carousel" data-interval="false" aria-hidden="true">
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="imgs/slide3_1.png" class="img-responsive center-block">
+                    <p class="legenda-imagem">
+                      Mercado temporário <br>
+                      Fonte: Sanches <i>apud</i> Moreira (2021b)
+                    </p>
+                  </div>
+                  <div class="item">
+                    <img src="imgs/slide3_2.png" class="img-responsive center-block">
+                    <p class="legenda-imagem">
+                      Mercado temporário <br>
+                      Fonte: Moreira (2021b)
+                    </p>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#carousel3" role="button" data-slide="prev"></a>
+                <a class="right carousel-control" href="#carousel3" role="button" data-slide="next"></a>
+              </div>
+            </div>
+            <div class="visible-xs print">
+              <div class="">
+                <img src="imgs/slide3_1.png" class="img-responsive center-block">
+                <p class="legenda-imagem">
+                  Mercado temporário <br>
+                  Fonte: Sanches <i>apud</i> Moreira (2021b)
+                </p>
+              </div>
+              <div class="">
+                <img src="imgs/slide3_2.png" class="img-responsive center-block">
+                <p class="legenda-imagem">
+                  Mercado temporário <br>
+                  Fonte: Moreira (2021b)
+                </p>
+              </div>
+            </div>
+            <p class="acessivel no-print">Foto de um mercado temporário. Pequenas bancas com forro/teto colorido ficam dispostas em formato circular. No entorno, é possível ver uma construção antiga de tijolos à esquerda e um rio à direita. Muitas pessoas estão frequentando o local. (a) Vista superior demonstrando o leiaute do espaço. As bancas estão dispostas em um formato circular, e há uma grande mesa retangular central. Para acesso interno, alguns locais que teriam bancas estão “vazados”. (b) Vistas isométricas normais e explodidas de uma banca, demonstrando estrutura, peças e encaixes da madeira e do forro. (c) Vista isométrica demonstrando a mesa retangular e uma placa de avisos.</p>
+
+            <!--SLIDE 4-->
+            <div class="no-print hidden-xs" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div id="carousel4" class="carousel slide no-print" data-ride="carousel" data-interval="false" aria-hidden="true">
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="imgs/slide4_1.png" class="img-responsive center-block">
+                    <p class="legenda-imagem">
+                      YAP_Construct 9: SKENÉ <br>
+                      Fonte: Altikes <i>apud</i> Zapico (2023)
+                    </p>
+                  </div>
+                  <div class="item">
+                    <img src="imgs/slide4_2.png" class="img-responsive center-block">
+                    <p class="legenda-imagem">
+                      YAP_Construct 9: SKENÉ <br>
+                      Fonte: Zapico (2023)
+                    </p>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#carousel4" role="button" data-slide="prev"></a>
+                <a class="right carousel-control" href="#carousel4" role="button" data-slide="next"></a>
+              </div>
+            </div>
+            <div class="visible-xs print">
+              <div class="">
+                <img src="imgs/slide4_1.png" class="img-responsive center-block">
+                <p class="legenda-imagem">
+                  YAP_Construct 9: SKENÉ <br>
+                  Fonte: Altikes <i>apud</i> Zapico (2023)
+                </p>
+              </div>
+              <div class="">
+                <img src="imgs/slide4_2.png" class="img-responsive center-block">
+                <p class="legenda-imagem">
+                  YAP_Construct 9: SKENÉ <br>
+                  Fonte: Zapico (2023)
+                </p>
+              </div>
+            </div>
+            <p class="acessivel no-print">Foto de um espaço efêmero. No espaço existem duas camadas translúcidas de cortinas de fio branco suspensas, uma interna à outra. Na parte superior da estrutura, um anel ovalado cinza e em diagonal sustenta cada uma das camadas. Na parte inferior, uma plataforma vermelha serve de base. O espaço está inserido em um parque. (a) Planta com cotas indicando as formas ovais da plataforma e das camadas. (b) Vista lateral do espaço, demonstrando as camadas inseridas e plataforma. (c) Outra vista lateral do espaço, demonstrando as camadas inseridas e plataforma. Há indicação do guindaste e das alturas que serão utilizadas para dispor as camadas.</p>
+
+            <img src="imgs/titulo_encerramento.png" class="img-responsive img-titulo" alt="Encerramento">
+            <p>Neste conteúdo, foi possível observar como os desenhos de projetos desempenham um papel fundamental no projeto de espaços efêmeros. A representação gráfica é primordial para comunicar ideias, explorar conceitos e visualizar soluções. Dentro dos espaços efêmeros, é preciso lembrar que velocidade de trabalho é fundamental, pois são espaços que precisam de agilidade em sua produção. Por isso, o domínio das técnicas manuais e digitais é importantíssimo nesse contexto. Serão elas que ajudarão a levar a ideia inicial do projeto adiante, proporcionando uma visualização clara da volumetria do espaço que representa o conceito fundamental do projeto.</p>
+            <p>Portanto, lembre-se da importância do desenho manual e digital para o seu processo de projeto. É ele que fará com que você, <i>designer</i> de interiores, consiga aliar conceito e volumetria para expressar seu projeto de espaço efêmero, criando um espaço impactante!</p>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+    <footer class="text-center no-print">
+      <!--
+          <ul class="pagination">
+
+          </ul>
+          -->
+    </footer>
+  </div>
+
+  <!-- Modais -->
+
+
+  <!-- Modais 100% -->
+
+  
+
+  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+    <footer>
+    </footer>
+	-->
+  <!-- carrega todas as imagens dos icones nesta div
+ caso queira adicionar mais imagens de novos icones do css,
+ ou qualquer imagem que deva ser contabilizada durante a fase
+ de loading, referenciar aqui.
+ -->
+  <div class="ico-div-loader">
+    <img src="../template/images/atencao.png" />
+    <img src="../template/images/bg-content.jpg" />
+    <img src="../template/images/bg-topo.jpg" />
+    <img src="../template/images/black-zoom-in-256.png" />
+    <img src="../template/images/concluindo.png" />
+    <img src="../template/images/curtir.png" />
+    <img src="../template/images/desafio.png" />
+    <img src="../template/images/dica.png" />
+    <img src="../template/images/doc.png" />
+    <img src="../template/images/fundamental.png" />
+    <img src="../template/images/icon-03.png" />
+    <img src="../template/images/importante.png" />
+    <img src="../template/images/lightbulb.png" />
+    <img src="../template/images/link.png" />
+    <img src="../template/images/link_pdf_hover.png" />
+    <img src="../template/images/link_pdf_normal.png" />
+    <img src="../template/images/logo-senac.png" />
+    <img src="../template/images/mark-icon.png" />
+    <img src="../template/images/mark-icon02.png" />
+    <img src="../template/images/midia.png" />
+    <img src="../template/images/monitor.png" />
+    <img src="../template/images/nao_curtir.png" />
+    <img src="../template/images/pergunta.png" />
+    <img src="../template/images/pesquisa.png" />
+    <img src="../template/images/play.png" />
+    <img src="../template/images/radio_flat.png" />
+    <img src="../template/images/refletir.png" />
+    <img src="../template/images/saiba_mais.png" />
+    <img src="../template/images/senac_loader.png" />
+    <img src="../template/images/tanamidia.png" />
+    <img src="../template/images/transcricao.png" />
+    <img src="../template/images/transcricao_small.png" />
+    <img src="../template/images/tv.png" />
+    <img src="../template/images/tv_bottom.png" />
+    <img src="../template/images/zoom.png" />
+    <img src="../template/images/zoom_ie.cur" />
+    <img src="../template/images/zoom_ie.png" />
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../template/js/jquery.min.js"></script>
+  <script src="../template/js/bootstrap.min.js"></script>
+  <script src="../template/js/jquery.magnific-popup.min.js"></script>
+  <script src="../template/js/print.js"></script>
+  <script src="../template/js/template.config.js"></script>
+  <script src="../template/js/images.loader.js"></script>
+  <script src="../template/js/highlight.min.js"></script>
+  <script src="../template/js/parallax.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  <noscript>
+    <style media="screen">
+      .over-loader {
+        display: none;
+      }
+    </style>
+  </noscript>
+</body>
+
+</html>
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {
+    document.querySelectorAll("pre code").forEach((el) => {
+      hljs.highlightElement(el);
+    });
+  });
+  //inicializa zoom na imagem
+  $(".zoom-imagem").magnificPopup({
+    type: "image",
+    mainClass: "mfp-with-zoom", // this class is for CSS animation below
+    zoom: {
+      enabled: true, // By default it's false, so don't forget to enable it
+
+      duration: 300, // duration of the effect, in milliseconds
+      easing: "ease-in-out", // CSS transition easing function
+
+      // The "opener" function should return the element from which popup will be zoomed in
+      // and to which popup will be scaled down
+      // By defailt it looks for an image tag:
+      opener: function (openerElement) {
+        // openerElement is the element on which popup was initialized, in this case its <a> tag
+        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        return openerElement.is("img")
+          ? openerElement
+          : openerElement.find("img");
+      },
+    },
+    image: {
+      markup:
+        '<div class="mfp-figure">' +
+        '<div class="mfp-close"></div>' +
+        '<div class="mfp-img"></div>' + // Floated left
+        '<div class="mfp-bottom-bar">' +
+        "<figcaption>" +
+        '<div class="mfp-title" style="text-align:center"></div>' +
+        '<div class="mfp-counter"></div>' +
+        "</figcaption>" +
+        "</div>" +
+        "</div>", // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+
+      cursor: "mfp-zoom-out-cur", // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
+
+      tError: '<a href="%url%">A imagem</a> não pode ser carregada.', // Error message
+    },
+  });
+
+  //inicializa popover
+  $(function () {
+    $('[data-toggle="popover"]').popover();
+  });
+  //inicializa tooltip
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+
+  /*------- Script de animação do botão -------*/
+  var root = document.documentElement;
+  root.className += " js";
+
+  function boxTop(idBox) {
+    var boxOffset = $(idBox).offset().top;
+    return boxOffset;
+  }
+
+  $(document).ready(function () {
+    var $target = $(".animeStart"),
+      $target2 = $(".animeStop"),
+      targetBox = $(".box"),
+      animationClass = "anime-init",
+      windowHeight = $(window).height(),
+      offset = windowHeight - windowHeight / 4;
+
+    function animeScroll() {
+      var documentTop = $(document).scrollTop();
+      $target.each(function () {
+        if (documentTop > boxTop(this) - offset) {
+          targetBox.addClass(animationClass);
+        } else {
+          targetBox.removeClass(animationClass);
+        }
+        if (documentTop > boxTop($target2) - offset) {
+          targetBox.removeClass(animationClass);
+        }
+      });
+    }
+    animeScroll();
+
+    $(document).scroll(function () {
+      animeScroll();
+    });
+  });
+</script>
+
+<script>
+  var scriptElem = document.createElement("script");
+  (scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js"),
+    (scriptElem.charset = "UTF-8"),
+    (scriptElem.onload = function () {
+      window.ht = new HT({
+        token: "bf5b7efb148a829a126a0e0c9fd533bf",
+        align: "top",
+        videoEnabled: true,
+        ytEmbedReplace: true,
+        mobileConfig: {
+          align: "right",
+          actionsAlign: "top",
+          customButtonStyle: {
+            borderRadius: "6px",
+            size: "38px",
+            horizontalMargin: "13px",
+            bottomMargin: "140px",
+            rightMargin: "40px",
+          },
+        },
+      });
+      $(".ht-skip").attr("aria-hidden", "true");
+    }),
+    document.body.appendChild(scriptElem);
+</script>
