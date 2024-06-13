@@ -7,12 +7,12 @@
   src: url("../fonts/SourceSansPro-Bold.ttf");
 }
 
-body{
+/* body{
   background: url("../imgs/bg.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
+} */
 
 .pagina .container{
   padding-top: 60px;
