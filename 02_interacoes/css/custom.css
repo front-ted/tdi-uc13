@@ -2,6 +2,12 @@
     margin-top: 100px;
 }
 
+h1, h2, h3, h4 {
+    color: #2A8080;
+    font-family: 'robotoregular', Arial , Verdana, Helvetica !important;
+    font-weight: bold;
+  }
+
 body{
     background: url('../imgs/bg.png') no-repeat fixed right top;
     background-color: #f2eddb;

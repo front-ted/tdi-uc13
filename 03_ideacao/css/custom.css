@@ -1,3 +1,69 @@
 .margem-botao {
     margin-top: 100px;
 }
+
+body{
+    background: url('../imgs/bg_elemento1.png') no-repeat left 20px top 3000px,
+                url('../imgs/bg_elemento4.png') no-repeat left -100px top 3800px,
+                url('../imgs/bg_elemento2.png') no-repeat left 20px top 6700px,
+                url('../imgs/bg_elemento4.png') no-repeat right -100px top 350px,
+                url('../imgs/bg_elemento2.png') no-repeat right 20px top 1800px,
+                url('../imgs/bg_elemento3.png') no-repeat right 20px top 2800px,
+                url('../imgs/bg_elemento1.png') no-repeat right 20px top 6200px,
+                url('../imgs/bg_elemento4.png') no-repeat right -100px top 11400px,
+                url('../imgs/bg.png') no-repeat fixed;
+                
+}
+
+h1, h2, h3, h4 {
+    color: #2A8080;
+    font-family: 'robotoregular', Arial , Verdana, Helvetica !important;
+    font-weight: bold;
+  }
+
+.lista-destaque li {
+list-style: none;
+position: relative;
+margin-bottom: 30px;
+}
+
+.lista-destaque li::before {
+content: url('../imgs/marcador.png');
+position: absolute;
+left: -60px;
+}
+
+.titulo-infografico{
+    color: #2A8080;
+}
+
+.col-lg-6 .texto-infografico{
+    margin: auto 0;
+}
+
+.texto-infografico{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1485px) {
+    body{
+        background: 
+                    url('../imgs/bg.png') no-repeat fixed;
+                    
+    }
+    .ilustracao{
+        display: none;
+    }
+
+    .texto-infografico{
+        margin-left: 25%;
+    }
+  }
+
+  @media screen and (max-width: 1485px) {
+    
+
+    .texto-infografico{
+        margin-left: 0px;
+    }
+  }
