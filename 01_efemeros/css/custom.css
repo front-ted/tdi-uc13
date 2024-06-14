@@ -7,12 +7,22 @@
   src: url("../fonts/SourceSansPro-Bold.ttf");
 }
 
+<<<<<<< Updated upstream
 /* body{
   background: url("../imgs/bg.png") no-repeat;
   background-size: cover;
   background-position: center;
+=======
+body{
+  background: url("../imgs/bg1_fixo.png") no-repeat left 0px top 0px / 13%,
+              url("../imgs/bg2_fixo.png") no-repeat right 0px top 0px / 13%;
+>>>>>>> Stashed changes
   background-attachment: fixed;
 } */
+
+.pagina, .paginas{
+  background-color: transparent !important;
+}
 
 .pagina .container{
   padding-top: 60px;
@@ -20,15 +30,13 @@
 }
 
 .bloco1 {
-  background: url("../imgs/bg1_fixo.png") no-repeat left 0px top 5px / 13%,
-              url("../imgs/bg2_fixo.png") no-repeat right 0px top 5px / 13%;
   margin-top: -70px;
   padding-top: 40px !important;
   padding-bottom: 10px !important;
 }
 
 .bloco-branco{
-  background-color: #FFFFFF;
+  background-color: ;
 }
 .bloco-verde{
   background-color: #2A8080;
@@ -280,6 +288,9 @@ h3.panel-title, .tab-content p{
   margin-bottom: 60px;
 }
 
+.img-destaque{
+  background-color: transparent !important;
+}
 
 @media screen and (max-width: 1300px) {
   .bloco1{
