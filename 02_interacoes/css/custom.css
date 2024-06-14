@@ -1,3 +1,144 @@
 .margem-botao {
     margin-top: 100px;
 }
+
+body{
+    background: url('../imgs/bg.png') no-repeat fixed right top;
+    background-color: #f2eddb;
+    background-size: 10%;
+}
+
+.painel-interacoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.bt-interacoes{
+    border: none;
+}
+
+.bt-espaciais{
+    background: url('../imgs/bt1.png');
+    width: 139px;
+    height: 212px;
+}
+
+.bt-sociais{
+    background: url('../imgs/bt2.png');
+    width: 140px;
+    height: 207px;
+}
+
+.bt-sensoriais{
+    background: url('../imgs/bt3.png');
+    width: 140px;
+    height: 207px;
+}
+
+.bt-funcionalidades{
+    background: url('../imgs/bt4.png');
+    width: 195px;
+    height: 181px;
+}
+
+.bt-interacoes:hover{
+    scale: 1.2;
+    transition: 0.5s;
+}
+
+.modal{
+    background-color: #f2eddb;
+}
+
+
+.modal-espaciais-header{
+    background: url('../imgs/titulo_modal1.png') no-repeat fixed left top;
+}
+
+.modal-sociais-header{
+    background: url('../imgs/titulo_modal2.png') no-repeat fixed left top;
+}
+
+.modal-sensoriais-header{
+    background: url('../imgs/titulo_modal3.png') no-repeat fixed left top;
+}
+
+.modal-funcionalidades-header{
+    background: url('../imgs/titulo_modal4.png') no-repeat fixed left top;
+}
+
+.modal-body{
+    background-size: 60%;
+    margin-top: 30px;
+    min-height: 100px;
+    padding-top: 100px;
+}
+
+.encerramento{
+    background: url('../imgs/fundo_encerramento.png') no-repeat  center;
+    background-size: cover;
+    padding-top: 300px;
+}
+
+.encerramento .container h3 {
+    color: white;
+}
+
+.encerramento .container p {
+    color: white;
+}
+
+@media screen and (max-width: 1500px) {
+    .encerramento{
+        background-size: 120%;
+        padding-top: 300px;
+    }
+  }
+
+@media screen and (max-width: 1200px) {
+    body{
+        background: none;
+        background-color: #f2eddb;
+    }
+    .encerramento{
+        background-size: 140%;
+        padding-top: 200px;
+        padding-left: 100px;
+    }
+    .modal-body{
+        background-size: 70%;
+
+    }
+  }
+
+  @media screen and (max-width: 976px) {
+  
+    .encerramento{
+        padding-top: 50px;
+        background-color: #2a8080;
+        padding-left: 0px;
+    }
+    .modal-body{
+        background-size: 90%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+  
+    .painel-interacoes{
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+  
+    .modal-body{
+        background-size: 110%;
+    }
+    
+  }
