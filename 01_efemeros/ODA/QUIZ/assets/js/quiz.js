@@ -26,9 +26,9 @@ $(function () {
 
     function alteraBackground() {
         if ($('.start-screen').hasClass('d-none')) {
-            $('body').css('background-image', 'url("../assets/img/bg-desk.png")');
+            $('body').css('background-image', 'url("assets/img/bg-desk.png")');
         } else {
-            $('body').css('background-image', 'url("../assets/img/bg-desk.png")');
+            $('body').css('background-image', 'url("assets/img/bg-desk.png")');
 
         }
     }
