@@ -97,7 +97,7 @@ var perguntas = [{
                 validacao: false,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao1-img1.jpg",
+                    src: "assets/img/questao1-img1.jpg",
                     title: "estandes grupo duratex gtm cenografia",
                     alt: "estandes grupo duratex gtm cenografia",
                     fonte: "Fonte:https://www.archdaily.com.br/br/892729/estandes-grupo-duratex-gtm-cenografia. Acesso em: 24 maio 2024."
@@ -108,7 +108,7 @@ var perguntas = [{
                 validacao: false,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao1-img2.jpg",
+                    src: "assets/img/questao1-img2.jpg",
                     title: "stand deca hydra gtm cenografia",
                     alt: "stand deca hydra gtm cenografia",
                     fonte: "Fonte:https://www.archdaily.com.br/br/892729/estandes-grupo-duratex-gtm-cenografia. Acesso em: 24 maio 2024."
@@ -120,7 +120,7 @@ var perguntas = [{
                 validacao: false,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao1-img3.jpg",
+                    src: "assets/img/questao1-img3.jpg",
                     title: "stand deca hydra gtm cenografia",
                     alt: "stand deca hydra gtm cenografia",
                     fonte: "Fonte:https://www.archdaily.com.br/br/867511/stand-deca-hydra-gtm-cenografia. Acesso em: 24 maio 2024."
@@ -131,7 +131,7 @@ var perguntas = [{
                 validacao: true,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao1-img4.jpg",
+                    src: "assets/img/questao1-img4.jpg",
                     title: "banheiro publico komaeyu schemata nagasaka",
                     alt: "banheiro publico komaeyu schemata nagasaka",
                     fonte: "Fonte:https://www.archdaily.com.br/br/1004051/banheiro-publico-komaeyu-schemata-architects-plus-jo-nagasaka. Acesso em: 24 maio 2024."
@@ -201,7 +201,7 @@ var perguntas = [{
                 validacao: false,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao4-img1.jpg",
+                    src: "assets/img/questao4-img1.jpg",
                     title: "fora de temporada pavilhão-kosmos architektur-and design",
                     alt: "fora de temporada pavilhão-kosmos architektur-and design",
                     fonte: "Fonte:https://www.archdaily.com/1016144/off-season-pavilion-kosmos-architektur-and-design. Acesso em: 24 maio 2024."
@@ -212,7 +212,7 @@ var perguntas = [{
                 validacao: false,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao4-img2.jpg",
+                    src: "assets/img/questao4-img2.jpg",
                     title: "pavilhão hiyoshi jorge almazan mais universidade keio studiolab",
                     alt: "pavilhão hiyoshi jorge almazan mais universidade keio studiolab",
                     fonte: "Fonte:https://www.archdaily.com/1012160/hiyoshi-pavilion-jorge-almazan-plus-keio-university-studiolab. Acesso em: 24 maio 2024. "
@@ -223,7 +223,7 @@ var perguntas = [{
                 validacao: true,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao4-img3.jpg",
+                    src: "assets/img/questao4-img3.jpg",
                     title: "vista interna casa irina biletska",
                     alt: "vista interna casa irina biletska",
                     fonte: "Fonte:https://www.archdaily.com/1016649/ava-house-irina-biletska. Acesso em: 24 maio 2024. "
@@ -235,7 +235,7 @@ var perguntas = [{
                 validacao: false,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao4-img4.jpg",
+                    src: "assets/img/questao4-img4.jpg",
                     title: "pavilhão de oficinas milos jokic e ana sabanovic",
                     alt: "pavilhão de oficinas milos jokic e ana sabanovic",
                     fonte: "Fonte:https://www.archdaily.com/970085/shatra-workshop-pavilion-milos-jokic-plus-ana-sabanovic-plus-nikola-abramovic-plus-luka-vujovic. Acesso em: 24 maio 2024. "
@@ -306,7 +306,7 @@ var perguntas = [{
                 validacao: false,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao6-img1.jpg",
+                    src: "assets/img/questao6-img1.jpg",
                     title: "hotel michelberger",
                     alt: "hotel michelberger",
                     fonte: "Fonte:https://www.archdaily.com.br/br/886617/hotel-michelberger-quarto-304-sigurd-larsen. Acesso em: 24 maio 2024. "
@@ -317,7 +317,7 @@ var perguntas = [{
                 validacao: true,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao6-img2.jpg",
+                    src: "assets/img/questao6-img2.jpg",
                     title: "as fadas espetáculo de dança paulo vieitas",
                     alt: "as fadas espetáculo de dança paulo vieitas",
                     fonte: "Fonte:https://www.archdaily.com.br/br/912379/as-fadas-espetaculo-de-danca-paulo-vieitas. Acesso em: 24 maio 2024."
@@ -328,7 +328,7 @@ var perguntas = [{
                 validacao: false,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao6-img3.jpg",
+                    src: "assets/img/questao6-img3.jpg",
                     title: "museu nacional da marinha snohetta",
                     alt: "museu nacional da marinha snohetta",
                     fonte: "Fonte:https://www.archdaily.com.br/br/886617/hotel-michelberger-quarto-304-sigurd-larsen. Acesso em: 24 maio 2024. "
@@ -339,7 +339,7 @@ var perguntas = [{
                 validacao: false,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao6-img4.jpg",
+                    src: "assets/img/questao6-img4.jpg",
                     title: "apartamento galeria lez arquitetura",
                     alt: "apartamento galeria lez arquitetura",
                     fonte: "Fonte:https://www.archdaily.com.br/br/1007116/apartamento-galeria-lez-arquitetura. Acesso em: 24 maio 2024. "
@@ -410,7 +410,7 @@ var perguntas = [{
                 validacao: true,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao7-img1.jpg",
+                    src: "assets/img/questao7-img1.jpg",
                     title: "bar temporario noturno fala atelie",
                     alt: "bar temporario noturno fala atelier",
                     fonte: "Fonte:https://www.archdaily.com.br/br/764259/bar-temporario-noturno-fala-atelier. Acesso em: 24 maio 2024."
@@ -421,7 +421,7 @@ var perguntas = [{
                 validacao: false,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao7-img2.jpg",
+                    src: "assets/img/questao7-img2.jpg",
                     title: "loja calico club",
                     alt: "loja calico club",
                     fonte: "Fonte:https://www.archdaily.com.br/br/1008220/loja-calico-club-barde-plus-vanvoltt. Acesso em: 24 maio 2024."
@@ -432,7 +432,7 @@ var perguntas = [{
                 validacao: false,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao7-img3.jpg",
+                    src: "assets/img/questao7-img3.jpg",
                     title: "escritório da loja pageone aio",
                     alt: "escritório da loja pageone aio",
                     fonte: "Fonte:https://www.archdaily.com.br/br/991852/pageone-store-office-aio. Acesso em: 24 maio 2024."
@@ -443,7 +443,7 @@ var perguntas = [{
                 validacao: false,
                 texto: "&nbsp;",
                 imagem: {
-                    src: "../assets/img/questao7-img4.jpg",
+                    src: "assets/img/questao7-img4.jpg",
                     title: "sorveteria brando solar",
                     alt: "sorveteria brando solar",
                     fonte: "Fonte:https://www.archdaily.com.br/br/990206/sorveteria-brando-solar. Acesso em: 24 maio 2024."

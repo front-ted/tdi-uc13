@@ -400,7 +400,7 @@ let templateDragInDrop = function (i) {
     msgContainer.addClass('d-flex align-items-center estilo-div-drag p-1');
     alertInstrucao.append(msgContainer);
     alertInstrucao.prop('role', 'alert');
-    msgContainer.append('<img src="../assets/img/ico_arrastar.png" class="mr-3 alt="clique e arraste">');
+    msgContainer.append('<img src="assets/img/ico_arrastar.png" class="mr-3 alt="clique e arraste">');
     msgContainer.append('<p class="p-alert">' + ' Arraste a(s) alternativa(s) correta(s) para o quadro e confirme e valide a sua resposta.' + '</p>');
     // let alertFooter = $("<div></div>");
     // alertFooter.addClass('d-flex justify-content-end alert-footer');
