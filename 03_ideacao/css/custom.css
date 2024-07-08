@@ -85,6 +85,14 @@ table.senac td{
     z-index: 5;
 }
 
+.video-youtube {
+    width: 640px;
+    height: 360px;
+    border-radius: 10px;
+    margin: 40px auto;
+    display: block;
+}
+
 ul.marcador-asterisco li{
     list-style-image: url('../imgs/marcador.png');
 }
