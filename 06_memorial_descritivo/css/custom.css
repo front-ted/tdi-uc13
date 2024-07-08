@@ -328,24 +328,34 @@ table.senac td{
 }
 
 .painel-elementos_chave{
-  text-align: center;
+  background: url('../imgs/bg_painel.png') no-repeat bottom right;
   margin: 20px auto;
+  width: 375px;
+  height: 440px;
+  position: relative;
+}
+.div-elementos_chave{
+  width: 220px;
+  position: absolute;
+  right: 0;
 }
 .painel-elementos_chave button{
-  width: 220px;
-  height: 80px;
-  margin: 10px;
-  border: none;
-  background-color: #ac372d;
-  color: #FFF;
-  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  margin: 10px auto;
+  display: block;
+  border: #919496 solid 1px;
+  background-color: #f5f5f5;
   transition: all 0.3s;
   font-family: 'robotoregular', Arial, Verdana, Helvetica !important;
+  font-size: 18px;
   font-weight: bold;
-  font-size: 16px;
 }
 .painel-elementos_chave button:hover{
   background-color: #2A8080;
+  border-color: #184646;
+  color: #fff;
+  font-weight: normal;
 }
 
 
@@ -385,4 +395,8 @@ table.senac td{
     scale: 0.6;
   }
 
+  .painel-elementos_chave{
+    transform: scale(0.9);
+    margin-left: -30px;
+  }
 }

@@ -286,10 +286,10 @@ table.senac td{
 .img-zoom::after{
   content: url('../imgs/lupa.png');
   display: block;
-  width: 95px;
-  height: 95px;
-  right: 5px;
-  bottom: 5px;
+  width: 80px;
+  height: 80px;
+  right: 50px;
+  bottom: 25px;
   position: absolute;
   filter: drop-shadow(#333 3px 3px 4px);
 }
