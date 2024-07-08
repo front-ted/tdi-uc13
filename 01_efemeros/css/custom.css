@@ -295,6 +295,9 @@ h3.panel-title, .tab-content p{
 }
 
 @media screen and (max-width: 1200px) {
+  body{
+    background-image: none;
+  }
   .bloco1{
     background: none;
   }

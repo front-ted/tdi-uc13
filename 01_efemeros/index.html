@@ -601,23 +601,30 @@
             <p>Você percebeu quantos ambientes podem ser considerados efêmeros?</p>
             <p class="no-print">Que tal testar o seu conhecimento sobre os tipos de espaços existentes acessando o <i>quiz</i> a seguir?</p>
             
-            <div class="no-print" aria-hidden="true">
+            <div class="link-oda no-print" aria-hidden="true">
               <p>Clique no botão a seguir e boa diversão!</p>
               <!--ESPERA ODA-->
               <style>
+                .link-oda a{
+                  display: block;
+                  max-width: 550px !important;
+                  margin: 40px auto;
+                  
+                }
+
                 .quiz-oda {
                   transform: scale(1);
-                  transition: 0.25s;
+                  transition: all 0.3s;
+                  box-shadow: #333 5px 5px 6px;
+                  border-radius: 20px;
                 }
 
                 .quiz-oda:hover {
                   transform: scale(1.05);
-                  transition: 0.25s;
                 }
               </style>
               <a href="ODA/QUIZ/index.html" target="_blank">
-                <img src="ODA/QUIZ/thumb.png" class="img-responsive quiz-oda" alt=""
-                  style="box-shadow: #333 5px 5px 6px; max-width: 550px; margin: auto;">
+                <img src="ODA/QUIZ/thumb.png" class="img-responsive quiz-oda">
               </a>
 
             </div>
