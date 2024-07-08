@@ -110,6 +110,21 @@ ul.marcador-asterisco li{
 }
 
 
+.citacao{
+    padding-left: 30%;
+    font-size: 15px;
+}
+
+.img-borda{
+    margin-top: 40px;
+    border-radius: 20px;
+    filter: drop-shadow(#303030 4px 4px 6px);
+}
+.gif-material{
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
 @media screen and (max-width: 1485px) {
     body{
         background: url('../imgs/bg.png') no-repeat fixed;
@@ -131,5 +146,9 @@ ul.marcador-asterisco li{
 @media screen and (max-width: 480px) {
     .ilustracao{
         display: none;
+    }
+
+    .citacao{
+        padding-left: 20%;
     }
 }
