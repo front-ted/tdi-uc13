@@ -287,6 +287,27 @@ h3.panel-title, .tab-content p{
   background-color: transparent !important;
 }
 
+
+/*------- ODA -------*/
+.link-oda a{
+  display: block;
+  max-width: 550px !important;
+  margin: 40px auto;
+  position: relative;
+}
+
+.selo-presencialidade{
+  display: block;
+  position: relative;
+  max-width: 150px;
+  filter: drop-shadow(#333 3px 3px 4px);
+  margin: auto;
+  margin-top: -30px;
+  border-radius: 100%;
+}
+/*------- /ODA -------*/
+
+
 @media screen and (max-width: 1300px) {
   .bloco1{
     background: url("../imgs/bg1_fixo.png") no-repeat left 0px top 5px / 10%,
